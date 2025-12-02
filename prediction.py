@@ -1,5 +1,5 @@
 import joblib
 
-def predicr(data):
+def predict(data):
     clf = joblib.load("knn_model.sav")
     return clf.predict(data)
